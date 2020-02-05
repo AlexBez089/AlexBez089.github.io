@@ -1,0 +1,81 @@
+/*CSS DOCUMENT*/
+
+
+img {
+width: 100%;}
+
+h1 {
+    font-family: sans-serif;
+    font-size:3em;
+    text-align: center;
+    color: #FF524B;
+    }
+
+h2{
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #E8382E;
+}
+
+div.ingredients h3{
+    font-family: sans-serif;
+    color: #FF9733;
+    font-size: 1em;
+}
+
+div.directions h3{
+    font-family: sans-serif;
+    color:#FF9733;
+    font-size: 1em;
+    
+}
+
+div.ingredients ul{
+    color:#8F7F84;
+    font-family: serif;
+    font-size: 1em;
+}
+
+div.directions ol{
+    color:#8F7F84;
+    font-family: serif;
+    font-size: 1em;
+    
+}
+
+div.intro{
+    font-family: serif;
+    color: #FFFFFF;
+    font-size: 1em;
+    background-color: #FF6C4B;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    
+}
+
+div.ingredients{
+    width: 45%;
+    float:left;
+    margin: 0em 2em 0em 0em;
+}
+
+div.directions{
+    width: 45%;
+    float:left;
+}
+
+div.ingredients li{
+    margin: 0em 0em 1em 0em;
+}
+
+div.directions li{
+    margin: 0em 0em 1em 0em;
+}
+
+footer{
+    font-family: sans-serif;
+    font-size: 0.5em;
+    float: none;
+    clear: both;
+}
