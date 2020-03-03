@@ -1,0 +1,190 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #302B2B;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 6px solid #969696;
+    margin: 1em 0em 2em;
+}
+
+div.main li {
+    list-style-type: none;
+    margin-right: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.25em;
+    display: inline;
+}
+
+div.main ul {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+h1 {
+    font-family: 'Rye', bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    clear: both;
+    text-align: center;
+    color: #302B2B;
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #302B2B;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: #302B2B;
+}
+
+div.news h6 {
+    font-family: sans-serif;
+    text-align: right;
+}
+
+ul {
+    font-family: sans-serif;
+}
+
+div.services {
+    float: left;
+    margin-right: 2em;
+    width: 45%;
+    color: #969696;
+    margin-bottom: 2em;
+
+}
+
+div.specialties {
+    float: left;
+    width: 45%;
+    color: #969696;
+}
+
+div.services li {
+    font-weight: lighter;
+    margin-bottom: 1em;
+}
+
+div.specialties li {
+    font-weight: lighter;
+    margin-bottom: 1em;
+}
+
+div.address {
+    text-align: center;
+    clear: both;
+    margin-top: 2em;
+}
+
+div.address p {
+    font-weight: bold;
+    margin-top: 3em;
+}
+
+div.firstnews {
+    background-color: #DBDBDB;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+div.secondnews {
+    background-color: #DBDBDB;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-top: 1em;
+}
+
+div.thirdnews {
+    background-color: #DBDBDB;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-top: 1em;
+}
+
+div.secondnews {
+    background-color: #DBDBDB;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-top: 1em;
+}
+
+div.fourthnews {
+    background-color: #DBDBDB;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-top: 1em;
+}
+
+h6 {
+    text-align: right;
+    font-style: italic;
+}
+
+footer h6 {
+    text-align: center;
+    color: #302B2B;
+}
+
+div.intro h3 {
+    font-weight: normal;
+}
+
+@media only screen and (min-width:42em){
+    
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo{
+        max-width: 30%;
+    }
+    .homeimage{
+        max-width: 50%;
+    }
+    .aboutimage{
+        max-width: 50%;
+    }
+    h2{margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;}
+    
+    p{ 
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;}
+    div.lists{
+        max-width: 60%;
+        margin: auto;
+        
+    }
+    
+    div.news{
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.news p{
+        max-width: 100%;
+    }
+    hr{
+        max-width: 60%;
+        margin: auto;
+    }
+}
